@@ -25,7 +25,12 @@ SECRET_KEY = "django-insecure-lt*-qdz_&bzlyj6nwqv9_4_60y^2p20x7jwbby1&hysaos%h_5
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+    'cuddly-system-px7rq9gx4536gjp-8000.app.github.dev',
+    '*',
+]
 
 
 # Application definition
